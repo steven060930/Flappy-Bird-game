@@ -176,7 +176,7 @@ class Base:
 
     def draw(self, win):
         win.blit(self.IMG, (self.x1, self.y))
-        win.blit(self.IMG, (self.x1, self.y))
+        win.blit(self.IMG, (self.x2, self.y))
 
 
 def draw_window(win, bird, pipes, base, score):
